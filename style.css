@@ -863,10 +863,16 @@ body {
 /* Connect Card */
 .connect-card {
     grid-column: span 2;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+}
+
+.connect-card .card-content {
+    display: flex;
+    flex-direction: column;
     gap: 1.5rem;
+    height: 100%;
+    justify-content: center;
 }
 
 .contact-info-v2 {
@@ -879,13 +885,14 @@ body {
     display: flex;
     align-items: center;
     gap: 12px;
-    color: #888;
-    font-size: 0.95rem;
-    transition: color 0.3s ease;
+    color: #bbb;
+    font-size: 1rem;
+    transition: all 0.3s ease;
 }
 
 .contact-item:hover {
     color: var(--text-white);
+    transform: translateX(5px);
 }
 
 .contact-item svg {
@@ -896,6 +903,7 @@ body {
 .social-icons {
     display: flex;
     gap: 15px;
+    margin-top: 0.5rem;
 }
 
 .social-icon {
@@ -984,9 +992,17 @@ body {
     }
 
     .connect-card {
-        flex-direction: column;
-        gap: 2rem;
+        grid-column: span 1;
         text-align: center;
+    }
+
+    .connect-card .card-content {
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .contact-info-v2 {
+        align-items: center;
     }
 
     .contact-info {
