@@ -157,7 +157,7 @@ body {
 .placeholder-cutout {
     width: 130%;
     height: 130%;
-    background: url('photo_2025-09-18_17-31-33.png')no-repeat center bottom;
+    background: url('image/photo_2025-09-18_17-31-33.png')no-repeat center bottom;
     background-size: cover;
     border-radius: 200px 200px 0 0;
     filter: grayscale(100%);
@@ -863,9 +863,34 @@ body {
 /* Connect Card */
 .connect-card {
     grid-column: span 2;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.contact-info-v2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-item {
+    display: flex;
     align-items: center;
+    gap: 12px;
+    color: #888;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.contact-item:hover {
+    color: var(--text-white);
+}
+
+.contact-item svg {
+    color: var(--text-blue);
+    flex-shrink: 0;
 }
 
 .social-icons {
@@ -887,7 +912,6 @@ body {
     font-weight: 700;
     transition: 0.3s;
     overflow: hidden;
-    /* Ensure image doesn't bleed out */
 }
 
 .social-icon img {
@@ -895,25 +919,12 @@ body {
     height: 100%;
     object-fit: cover;
     padding: 10px;
-    /* Give some breathing room inside the circle */
 }
 
 .social-icon:hover {
     background: #342ae9;
     border-color: #342ae9;
     transform: scale(1.1);
-}
-
-.contact-info {
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.contact-info span {
-    font-size: 0.9rem;
-    color: #888;
 }
 
 /* Code Tag Utiltiy */

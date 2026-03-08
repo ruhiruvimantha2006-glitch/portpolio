@@ -3,7 +3,7 @@
     "id": 2,
     "title": "Ethereal Branding",
     "category": "Graphic Design",
-    "image": "download (48).jpg",
+    "image": "image/download (48).jpg",
     "description": "Complete visual identity for a high-end fashion label.",
     "link": "#"
   },
@@ -11,7 +11,7 @@
     "id": 1,
     "title": "Quantum Motion",
     "category": "Graphic Design",
-    "image": "download (47).jpg",
+    "image": "image/download (47).jpg",
     "description": "3D motion graphics exploring abstract physics concepts.",
     "link": "#"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Ruhiru Vimantha",
     "category": "Graphic Design",
-    "image": "bbbb.png",
+    "image": "image/bbbb.png",
     "description": "poster design for book writer thisara karunathilaka",
     "link": "#"
   },
