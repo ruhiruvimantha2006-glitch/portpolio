@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Liftoff | Portfolio</title>
+    <meta name="description" content="Futuristic Portfolio for Video Editing and Graphic Design">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600&family=Space+Grotesk:wght@400;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Section 1: Hero (White) -->
+    <section class="section hero-section" id="hero">
+        <nav class="top-nav">
+            <div class="logo">
+                <img src="photo_2026-03-05_06-26-20 copy.jpg" alt="Profile" class="nav-profile-img">
+                Portfolio.
+            </div>
+            <div class="menu-icon">=</div>
+        </nav>
+
+        <div class="hero-content">
+            <div class="hero-text-layer">
+                <span class="serif-italic">hello I'm</span>
+                <span class="serif-italic"></span>
+            </div>
+            <h1 class="hero-title">video editor and designer </h1>
+
+            <div class="hero-image-wrapper">
+                <div class="placeholder-cutout"></div>
+                <button class="cta-button" onclick="window.open('https://wa.me/qr/MWCML6GUCSALN1', '_blank')">LET'S
+                    CHAT</button>
+            </div>
+
+            <div class="hero-footer">
+                <div class="footer-left">
+                    <p class="small-text">SPECIALIZED IN VIDEO EDITING,<br>and GRAPHICS DESIGN.</p>
+                    <div class="software-icons">
+                        <div class="software-icon icon-pr" title="Premiere Pro">Pr</div>
+                        <div class="software-icon icon-ae" title="After Effects">Ae</div>
+                        <div class="software-icon icon-ps" title="Photoshop">Ps</div>
+                        <div class="software-icon icon-ai" title="Illustrator">Ai</div>
+                        <div class="software-icon icon-id" title="InDesign">Id</div>
+                        <div class="software-icon icon-figma" title="Figma">Fi</div>
+                    </div>
+                </div>
+                <p class="small-text align-right">Build a credible, conversion-<br>focused brand that shows<br>your
+                    ideal client exactly how<br>you can help them.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Skills (Electric Blue) -->
+    <section class="section skills-section" id="skills">
+        <div class="skills-header">
+            <h2 class="section-heading-large">ALL YOUR <br> <span class="serif-italic-white">design needs</span></h2>
+        </div>
+
+        <div id="skills-container" class="skills-container">
+            <!-- Floating tags injected by JS -->
+        </div>
+    </section>
+
+    <!-- Section 3: Projects (Deep Black) -->
+    <section class="section projects-section" id="projects">
+        <canvas id="particle-canvas"></canvas>
+        <div class="gallery-container">
+            <h2 class="section-heading text-white">Projects</h2>
+
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="All">All</button>
+                <button class="filter-btn" data-filter="Graphic Design">Graphic Design</button>
+                <button class="filter-btn" data-filter="Video Editing">Video Editing</button>
+                <button class="filter-btn" data-filter="UI UX Design">UI UX Design</button>
+                <button class="filter-btn" data-filter="Product Design">Product Design</button>
+            </div>
+
+            <div class="carousel-container">
+                <div class="project-carousel" id="project-carousel">
+                    <!-- Projects injected by JS -->
+                </div>
+            </div>
+
+            <div class="carousel-controls">
+                <button id="prev-btn" class="nav-btn">&#8592;</button>
+                <button id="next-btn" class="nav-btn">&#8594;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: About (Redesigned Bento Layout) -->
+    <section class="section about-section" id="about">
+        <div class="about-header">
+            <h2 class="section-heading-large">A BIT <br> <span class="serif-italic-white">about me</span></h2>
+        </div>
+        <div class="about-bento-grid">
+            <!-- Main Identitiy Card -->
+            <div class="bento-card identity-card">
+                <div class="about-left">
+                    <span class="code-tag">&lt;Designer&gt;</span>
+                    <h2 class="about-name">Ruhiru<br>Vimantha</h2>
+
+                    <div class="about-description-inline">
+                        <span class="code-tag">&lt;about me&gt;</span>
+                        <p class="about-text">
+                            I'm a passionate <strong>Video Editor</strong> & <strong>Graphic Designer</strong> based in
+                            Sri
+                            Lanka.
+                            I specialize in crafting high-impact visual stories that help brands stand out and
+                            convert.Design has been part of my life long before I called it a career.
+
+                            I began during my school days — typing exam papers, designing sports meet function cards,
+                            and experimenting with layouts. What started as curiosity slowly turned into passion.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Card -->
+            <div class="bento-card skills-card">
+                <h3 class="card-title">Expertise</h3>
+                <div class="skills-grid">
+                    <span>Video Editing</span>
+                    <span>Motion Graphics</span>
+                    <span>Brand Identity</span>
+                    <span>UI Design</span>
+                    <span>Color Grading</span>
+                    <span>Photography</span>
+                </div>
+            </div>
+
+            <!-- Quick Info Card -->
+            <div class="bento-card quick-info-card">
+                <h3 class="card-title">Quick Info</h3>
+                <ul class="info-list">
+                    <li><strong>Role:</strong> Creative Designer</li>
+                    <li><strong>Strength:</strong> Ads, Photoshop, Print</li>
+                    <li><strong>Tools:</strong> Adobe, Figma, CapCut</li>
+                    <li><strong>Location:</strong>Anuradhapura</li>
+                    <li><strong>Availability:</strong> Immediate</li>
+                </ul>
+                <a href="*" class="cv-download-btn" download>
+                    <span>Download CV</span>
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Connect Card -->
+            <div class="bento-card connect-card">
+                <h3 class="card-title">Let's contact</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" title="Facebook">
+                        <img src="facebook.png" alt="FB">
+                    </a>
+                    <a href="https://wa.me/qr/MWCML6GUCSALN1" target="_blank" class="social-icon" title="WhatsApp">
+                        <img src="social.png" alt="WA">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ruhiru-vimantha-abekoon-65a103354/" target="_blank"
+                        class="social-icon" title="LinkedIn">
+                        <img src="linkedin.png" alt="LI">
+                    </a>
+                    <a href="#" class="social-icon" title="Instagram">
+                        <img src="instagram.png" alt="IG">
+                    </a>
+                </div>
+                <div class="contact-info">
+                    <span>ruhiruvimantha2006.com</span>
+                    <span>+94 715678425</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
