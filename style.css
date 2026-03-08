@@ -982,3 +982,61 @@ body {
         text-align: center;
     }
 }
+
+/* MOBILE FIXES FOR PROJECTS CARD */
+@media (max-width: 480px) {
+    .section-heading-large {
+        font-size: 2.5rem;
+    }
+
+    .carousel-container {
+        height: 520px;
+    }
+
+    .project-card {
+        width: 80vw;
+        height: 480px;
+        padding: 12px;
+        gap: 10px;
+    }
+
+    .project-card.graphic-design-card {
+        width: 85vw;
+        height: 420px;
+    }
+
+    .card-inner-box {
+        border-radius: 15px;
+    }
+
+    .new-card-footer {
+        padding: 0 2px 2px 2px;
+    }
+
+    .new-card-description {
+        font-size: 0.75rem;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+    }
+
+    .new-card-btn {
+        padding: 6px 14px;
+        font-size: 0.8rem;
+    }
+
+    .filter-btn {
+        padding: 0.4rem 1rem;
+        font-size: 0.8rem;
+    }
+    
+    .carousel-controls {
+        gap: 15px;
+        margin-top: 20px;
+    }
+    
+    .nav-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+}

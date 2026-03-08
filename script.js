@@ -61,6 +61,7 @@ function renderCarousel() {
 
 function updateCarouselState() {
     const cards = document.querySelectorAll('.project-card');
+    const isMobile = window.innerWidth <= 480;
 
     cards.forEach((card, index) => {
         card.style.zIndex = '0';
@@ -78,25 +79,33 @@ function updateCarouselState() {
             card.style.opacity = '1';
         } else if (offset === 1) {
             // Right 1
-            card.style.transform = 'translateX(60%) scale(0.8) perspective(1000px) rotateY(-30deg)';
+            const translateX = isMobile ? '45%' : '60%';
+            const scale = isMobile ? '0.75' : '0.8';
+            card.style.transform = `translateX(${translateX}) scale(${scale}) perspective(1000px) rotateY(-30deg)`;
             card.style.zIndex = '90';
             card.style.filter = 'brightness(0.6)';
             card.style.opacity = '0.7';
         } else if (offset === -1) {
             // Left 1
-            card.style.transform = 'translateX(-60%) scale(0.8) perspective(1000px) rotateY(30deg)';
+            const translateX = isMobile ? '-45%' : '-60%';
+            const scale = isMobile ? '0.75' : '0.8';
+            card.style.transform = `translateX(${translateX}) scale(${scale}) perspective(1000px) rotateY(30deg)`;
             card.style.zIndex = '90';
             card.style.filter = 'brightness(0.6)';
             card.style.opacity = '0.7';
         } else if (offset === 2) {
             // Right 2
-            card.style.transform = 'translateX(100%) scale(0.6) perspective(1000px) rotateY(-45deg)';
+            const translateX = isMobile ? '80%' : '100%';
+            const scale = isMobile ? '0.5' : '0.6';
+            card.style.transform = `translateX(${translateX}) scale(${scale}) perspective(1000px) rotateY(-45deg)`;
             card.style.zIndex = '80';
             card.style.filter = 'brightness(0.4)';
             card.style.opacity = '0.5';
         } else if (offset === -2) {
             // Left 2
-            card.style.transform = 'translateX(-100%) scale(0.6) perspective(1000px) rotateY(45deg)';
+            const translateX = isMobile ? '-80%' : '-100%';
+            const scale = isMobile ? '0.5' : '0.6';
+            card.style.transform = `translateX(${translateX}) scale(${scale}) perspective(1000px) rotateY(45deg)`;
             card.style.zIndex = '80';
             card.style.filter = 'brightness(0.4)';
             card.style.opacity = '0.5';
@@ -300,4 +309,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 window.addEventListener('resize', () => {
     initParticles();
+    updateCarouselState();
 });
