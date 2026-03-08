@@ -288,6 +288,28 @@ window.addEventListener('mousemove', e => {
     mouse.y = e.clientY;
 });
 
+// Touch Events for Mobile Interaction
+window.addEventListener('touchstart', e => {
+    mouse.x = e.touches[0].clientX;
+    mouse.y = e.touches[0].clientY;
+}, { passive: false });
+
+window.addEventListener('touchmove', e => {
+    mouse.x = e.touches[0].clientX;
+    mouse.y = e.touches[0].clientY;
+    
+    // Check if touch is within skills section to prevent scrolling while interacting
+    const rect = skillsContainer.getBoundingClientRect();
+    if (e.touches[0].clientY > rect.top && e.touches[0].clientY < rect.bottom) {
+        // Optional: e.preventDefault(); // This might be too aggressive, better to let it scroll if needed
+    }
+}, { passive: true });
+
+window.addEventListener('touchend', () => {
+    mouse.x = null;
+    mouse.y = null;
+});
+
 // Setup
 document.addEventListener('DOMContentLoaded', () => {
     loadProjects();
