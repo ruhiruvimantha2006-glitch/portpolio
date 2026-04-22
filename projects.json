@@ -1,6 +1,6 @@
 [
   {
-    "id": 2,
+    "id": 3,
     "title": "Ethereal Branding",
     "category": "Graphic Design",
     "image": "image/download (48).jpg",
@@ -8,7 +8,7 @@
     "link": "#"
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "Quantum Motion",
     "category": "Graphic Design",
     "image": "image/download (47).jpg",
@@ -16,19 +16,11 @@
     "link": "#"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Ruhiru Vimantha",
     "category": "Graphic Design",
     "image": "image/bbbb.png",
     "description": "poster design for book writer thisara karunathilaka",
-    "link": "#"
-  },
-  {
-    "id": 4,
-    "title": "Urban Pulse",
-    "category": "Video Editing",
-    "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=600&auto=format&fit=crop",
-    "description": "Documentary-style edit capturing the rhythm of city life.",
     "link": "#"
   },
   {
@@ -37,6 +29,22 @@
     "category": "Video Editing",
     "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=600&auto=format&fit=crop",
     "description": "Documentary-style edit capturing the rhythm of city life.",
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "title": "Urban Pulse",
+    "category": "Video Editing",
+    "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=600&auto=format&fit=crop",
+    "description": "Documentary-style edit capturing the rhythm of city life.",
+    "link": "#"
+  },
+  {
+    "id": 1,
+    "title": "Ethereal Branding",
+    "category": "Graphic Design",
+    "image": "image/Document 2.png",
+    "description": "Complete visual identity for a high-end fashion label.",
     "link": "#"
   }
 ]
