@@ -8,6 +8,14 @@
     "link": "#"
   },
   {
+    "id": 1,
+    "title": "Ethereal Branding",
+    "category": "Graphic Design",
+    "image": "image/Document 2.webp",
+    "description": "Complete visual identity for a high-end fashion label.",
+    "link": "#"
+  },
+  {
     "id": 2,
     "title": "Quantum Motion",
     "category": "Graphic Design",
@@ -38,13 +46,6 @@
     "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=600&auto=format&fit=crop",
     "description": "Documentary-style edit capturing the rhythm of city life.",
     "link": "#"
-  },
-  {
-    "id": 1,
-    "title": "Ethereal Branding",
-    "category": "Graphic Design",
-    "image": "image/Document 2.png",
-    "description": "Complete visual identity for a high-end fashion label.",
-    "link": "#"
   }
+  
 ]
