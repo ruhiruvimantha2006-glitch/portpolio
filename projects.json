@@ -1,4 +1,11 @@
-[
+[{
+    "id": 3,
+    "title": "Ethereal Branding",
+    "category": "Graphic Design",
+    "image": "image/Duplicate State - Copy.webp",
+    "description": "Complete visual identity for a high-end fashion label.",
+    "link": "#"
+  },
   {
     "id": 3,
     "title": "Ethereal Branding",
@@ -16,10 +23,18 @@
     "link": "#"
   },
   {
+    "id": 1,
+    "title": "Ethereal Branding",
+    "category": "Graphic Design",
+    "image": "image/Document.webp",
+    "description": "Complete visual identity for a high-end fashion label.",
+    "link": "#"
+  },
+  {
     "id": 7,
     "title": "Ethereal Branding",
     "category": "Graphic Design",
-    "image": "image/video editing (6).png",
+    "image": "image/video editing (6.1).webp",
     "description": "Complete visual identity for a high-end fashion label.",
     "link": "#"
   },
